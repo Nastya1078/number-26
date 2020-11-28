@@ -10,7 +10,8 @@ public class Main {
           past = i -1;
           next = i +1;
           if (Math.sqrt(past)%1==0)
-              if (Math.cbrt(next)%1==0) System.out.println(i);
+              if (Math.cbrt(next)%1==0) 
+                  System.out.println(i);
         }
     }
 }
